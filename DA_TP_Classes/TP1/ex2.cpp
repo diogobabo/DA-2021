@@ -3,10 +3,32 @@
 #include "exercises.h"
 
 int maxSubsequence(int A[], unsigned int n, unsigned int &i, unsigned int &j) {
-    //TODO...
-
-    int maxSum;
-
+    int parcialsum = 0 ,maxSum = 0;
+    for (int k = 0; k < n ; ++k) {
+        parcialsum = 0;
+        for(int a = k; a<n;a++){
+            parcialsum += A[a];
+        }
+        if(maxSum <parcialsum){
+            i = k;
+            j = n;
+            maxSum = parcialsum;
+        }
+    }
+    for (int k = n; k > 0 ; --k) {
+        parcialsum = 0;
+        for(int a = 0; a<k;a++){
+            parcialsum += A[a];
+        }
+        if(maxSum <parcialsum){
+            i = k;
+            j = n;
+            maxSum = parcialsum;
+        }
+    }
+    
+    
+    
     return maxSum;
 }
 

@@ -3,13 +3,37 @@
 #include "exercises.h"
 
 bool sum3(unsigned int T, unsigned int nums[3]) {
-    //TODO...
-
+    for(unsigned int i = 1;i<T; i++) {
+        for(unsigned int j = 1;j<T; j++) {
+            for(unsigned int k = 1;k<T; k++) {
+                unsigned int sum = i + j + k;
+                if(sum == T) {
+                    nums[0] = i;
+                    nums[1] = j;
+                    nums[2] = k;
+                    return true;
+                }
+            }
+        }
+    }
     return false;
 }
 
 bool sum3_a(unsigned int T, unsigned int nums[3]) {
-    //TODO...
+    unsigned int j = T;
+    for(unsigned int i = 1;i<T; i++) {
+        j--;
+            for(unsigned int k = 1;k<T; k++) {
+                unsigned int sum = i + j + k;
+                if(sum == T) {
+                    nums[0] = i;
+                    nums[1] = j;
+                    nums[2] = k;
+                    return true;
+                }
+            }
+
+    }
 
     return false;
 }
