@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes
+# Install script for directory: C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
+  include("C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

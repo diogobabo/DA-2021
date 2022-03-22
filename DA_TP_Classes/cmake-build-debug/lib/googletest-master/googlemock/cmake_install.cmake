@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/lib/googletest-master/googlemock
+# Install script for directory: C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/lib/googletest-master/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,28 +38,28 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/lib/googletest-master/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/lib/googletest-master/googlemock/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/libgmockd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/libgmockd.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/libgmock_maind.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/libgmock_maind.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/googletest-master/googletest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/googletest-master/googletest/generated/gmock.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/googletest-master/googletest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/googletest-master/googletest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Diogo Babo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/googletest-master/googletest/cmake_install.cmake")
+  include("C:/Users/DiogoBabo/Desktop/DA-2021/DA_TP_Classes/cmake-build-debug/lib/googletest-master/googletest/cmake_install.cmake")
 
 endif()
 
